@@ -84,14 +84,17 @@ int main() {
     printf("PIB per Capita: %0.2f reais\n", pp1);
     printf("\n");
 
+    printf("Segue abaixo os cards preenchidos\n");
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado2);
-    printf("Codigo: %s%c\n",codigo2, estado2);
+    printf("Codigo: %s%c\n",codigo1, estado2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
-    printf("Area: %0.2f\n", area2);
-    printf("PIB: %0.2f\n",pib2);
+    printf("Area: %0.2f Km²\n", area2);
+    printf("PIB: %0.2f bilhões de reais\n",pib2);
     printf("Numero de Pontos Turisticos: %i\n", npt2);
+    printf("Densidade Populacional: %0.2f hab/km²\n", dp2);
+    printf("PIB per Capita: %0.2f reais\n", pp2);
     printf("\n");
 
     return 0;
